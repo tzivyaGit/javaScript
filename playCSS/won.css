@@ -1,0 +1,26 @@
+body{
+    background-image: url(../פןב/רקע.jpg);
+
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:hsl(0, 88%, 68%);
+
+}
+
+.toStartGame {
+   width: 30%;
+   height: 150px;
+   padding: 20px;
+   border-style: solid;
+   border-color: hsl(0, 88%, 68%);
+   margin: 150px 400px 30px 450px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: hsl(0, 88%, 68%);
+    }

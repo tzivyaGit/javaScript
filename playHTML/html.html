@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>בול פגיעה</title>
+
+    <link rel="styleSheet" href="../playCSS/css.css">
+
+</head>
+<body >
+   <div>
+      <section id="toStartGame" > </section>
+   
+      <section id="delete" > </section>
+
+      <section id="horaot" > 
+        <div class="tooltip">הוראות
+           <span class="tooltiptext">
+
+            <b> בול פגיעה – </b>
+            <br>
+            <br>
+           <b> חושבים טוב, קולעים בול – ומפצחים את הסוד!</b>
+            <br>
+            <br>
+              מהלך המשחק:  
+                <br>
+                <br>
+          המחשב בוחר 4 צבעים
+                 <br>
+                  השחקן מנסה לנחש את סדר הצבעים על ידי הנחת ניצבים צבעוניים בשורה הראשונה הקרובה ללוח המסתיר.
+            <br>
+         המחשב מסמן אם צדק או טעה בניחושו על ידי הנחת סמנים שחורים ולבנים בשורה המקבילה.
+            <br>
+             סמן שחור – בול – הצבע והמיקום נכונים.
+            <br>
+           סמן לבן – פגיעה  – הצבע נכון אבל לא המיקום.
+            <br>
+            השחקן שהצליח לנחש את סדר הנחת הניצבים של היריב במעט ניחושים הוא המנצח!
+            <br>
+            <br>
+           חושבים טוב, קולעים בול- ומפצחים את הסוד!
+
+           </span>
+      </div>
+
+      </section>
+   </div>
+
+
+    <div class="mischak">
+        <!-- */4 מקומות לצבעים שהמחשב בחר /* -->
+        <div id="bchira">
+            <div id="tzeva1" class="computer-circle">?</div>
+            <div id="tzeva2" class="computer-circle">?</div>
+            <div id="tzeva3" class="computer-circle">?</div>
+            <div id="tzeva4" class="computer-circle">?</div>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="row_1" class="row">
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים -->
+            <div id="bchira-tzeva_1" class="bchira-tzeva">
+                <div id="bchira1_0" class="bchira-circle" ></div>
+                <div id="bchira1_1" class="bchira-circle" ></div>
+                <div id="bchira1_2" class="bchira-circle" ></div>
+                <div id="bchira1_3" class="bchira-circle" ></div>
+            </div>
+
+              <!-- מקום לבולים ולפגיעות -->
+               <section id="secbp"></section>
+            
+        </div>
+        
+        <div id="row_2" class="row" >
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים --> 
+             <div id="bchira-tzeva_2" class="bchira-tzeva" >
+                <div id="bchira2_0" class="bchira-circle"  ></div>
+                <div id="bchira2_1" class="bchira-circle" ></div>
+                <div id="bchira2_2" class="bchira-circle"></div>
+                <div id="bchira2_3" class="bchira-circle" ></div>
+            </div>
+
+         </div>
+         
+         <div id="row_3" class="row" >
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים --> 
+             <div id="bchira-tzeva_3" class="bchira-tzeva">
+                <div id="bchira3_0" class="bchira-circle"></div>
+                <div id="bchira3_1" class="bchira-circle"></div>
+                <div id="bchira3_2" class="bchira-circle"></div>
+                <div id="bchira3_3" class="bchira-circle"></div>
+            </div>
+         </div>
+
+         <div id="row_4" class="row" >
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים --> 
+             <div id="bchira-tzeva_4" class="bchira-tzeva">
+                <div id="bchira4_0" class="bchira-circle"></div>
+                <div id="bchira4_1" class="bchira-circle"></div>
+                <div id="bchira4_2" class="bchira-circle"></div>
+                <div id="bchira4_3" class="bchira-circle"></div>
+            </div>
+         </div>
+
+         <div id="row_5" class="row" >
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים --> 
+             <div id="bchira-tzeva_5" class="bchira-tzeva">
+                <div id="bchira5_0" class="bchira-circle"></div>
+                <div id="bchira5_1" class="bchira-circle"></div>
+                <div id="bchira5_2" class="bchira-circle"></div>
+                <div id="bchira5_3" class="bchira-circle"></div>
+            </div>
+         </div>
+
+         <div id="row_6" class="row" >
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים --> 
+             <div id="bchira-tzeva_6" class="bchira-tzeva">
+                <div id="bchira6_0" class="bchira-circle"></div>
+                <div id="bchira6_1" class="bchira-circle"></div>
+                <div id="bchira6_2" class="bchira-circle"></div>
+                <div id="bchira6_3" class="bchira-circle"></div>
+            </div>
+         </div>
+
+         <div id="row_7" class="row" >
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים --> 
+             <div id="bchira-tzeva_7" class="bchira-tzeva">
+                <div id="bchira7_0" class="bchira-circle"></div>
+                <div id="bchira7_1" class="bchira-circle"></div>
+                <div id="bchira7_2" class="bchira-circle"></div>
+                <div id="bchira7_3" class="bchira-circle"></div>
+            </div>
+         </div>
+
+         <div id="row_8" class="row" >
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים --> 
+             <div id="bchira-tzeva_8" class="bchira-tzeva">
+                <div id="bchira8_0" class="bchira-circle"></div>
+                <div id="bchira8_1" class="bchira-circle"></div>
+                <div id="bchira8_2" class="bchira-circle"></div>
+                <div id="bchira8_3" class="bchira-circle"></div>
+            </div>
+         </div>
+         
+         <div id="row_9" class="row" >
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים --> 
+             <div id="bchira-tzeva_9" class="bchira-tzeva">
+                <div id="bchira9_0" class="bchira-circle"></div>
+                <div id="bchira9_1" class="bchira-circle"></div>
+                <div id="bchira9_2" class="bchira-circle"></div>
+                <div id="bchira9_3" class="bchira-circle"></div>
+            </div>
+         </div>
+
+         <div id="row_10" class="row" >
+
+            <!-- 4 מקומות שנותנים לשחקן לבחור צבעים --> 
+             <div id="bchira-tzeva_10" class="bchira-tzeva">
+                <div id="bchira10_0" class="bchira-circle"></div>
+                <div id="bchira10_1" class="bchira-circle"></div>
+                <div id="bchira10_2" class="bchira-circle"></div>
+                <div id="bchira10_3" class="bchira-circle"></div>
+            </div>
+         </div>
+ 
+    </div>
+
+
+    <!--   פלטה של הצבעים לבחירה -->   
+    <section id="plata_colors" ></section>
+
+    <script src="../playJS/js.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-image: url(../פןב/רקע.jpg);
+}
+h1{
+    font-size: 600%;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    color:hsl(0, 88%, 68%);
+    text-align: center;
+    text-shadow: 2px 2px;
+    padding: 12%;
+    margin: 2%;
+     }
+
+.buttom{
+    /* background-color: hsl(337, 87%, 56%)!important; */
+    color: rgb(26, 23, 23);
+    font-size: 200%;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    padding-top: 6px;
+    padding: 18px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+#txName{
+    color: rgb(26, 23, 23);
+    font-size: 100%;
+    padding-top: 6px;
+    padding: 18px;
+    margin-left: 500px;
+    text-align: center;
+    padding: 20px;
+    padding-left: 30px;
+    border-style: solid;
+    border-color: hsl(0, 88%, 68%);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
